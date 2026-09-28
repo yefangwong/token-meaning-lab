@@ -1,0 +1,26 @@
+# token-meaning-lab dependencies
+# 版本 pin 確保可再現性
+
+# Jupyter
+notebook==7.3.2
+jupyterlab==4.4.3
+
+# Embeddings（中文語義向量）
+sentence-transformers==3.4.1
+# 使用模型: BAAI/bge-large-zh-v1.5 (Chinese SOTA embedding)
+
+# 數值計算
+numpy==2.2.4
+scipy==1.15.2
+pandas==2.2.3
+
+# 視覺化
+matplotlib==3.10.1
+seaborn==0.13.2
+
+# HowNet 中文語義資料庫
+OpenHowNet==2.0.2
+
+# 工具
+tqdm==4.67.1
+python-dotenv==1.0.1

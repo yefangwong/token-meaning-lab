@@ -1,0 +1,37 @@
+# Python & Virtual Environments
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.python-version
+dist/
+build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# 虛擬環境與包管理
+uv.lock
+.env
+
+# 大模型權重與快取（避免誤傳龐大模型檔）
+~/.cache/huggingface/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# 系統暫存與圖檔
+.DS_Store
+data/results/*.png
+
+# Java & Lucene（為我們後續的搜尋引擎實驗防護）
+*.class
+*.jar
+*.war
+target/
+bin/
+.gradle/
