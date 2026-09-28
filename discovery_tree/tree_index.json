@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {
+      "node_id": "7dbc54dee42f",
+      "timestamp": "20260928_210523",
+      "model": "BAAI/bge-large-zh-v1.5",
+      "verdict": "H1_SUPPORTED",
+      "llm_p_value": 0.5880925684507619,
+      "hownet_p_value": 1.6178662246519312e-11,
+      "h1_supported": true,
+      "path": "/Users/yefangwong/Documents/GitHub.nosync/token-meaning-lab/discovery_tree/run_20260928_210523_7dbc54dee42f"
+    }
+  ],
+  "best_node_id": "7dbc54dee42f",
+  "created_at": "2026-09-28T21:05:23.579528",
+  "updated_at": "2026-09-28T21:05:23.579544"
+}
